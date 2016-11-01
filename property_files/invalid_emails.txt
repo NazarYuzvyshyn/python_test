@@ -1,0 +1,10 @@
+template.com
+template@com
+template@
+template@.com
+template.@gmail.com
+template@gmailcom
+template/gmail.com
+@gmail.com
+template
+@
