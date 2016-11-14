@@ -12,7 +12,7 @@ from .web_driver_factory import WebDriverFactory
 
 def click_on(xpath):
     try:
-        wait = WebDriverWait(WebDriverFactory.driver(), 25)
+        wait = WebDriverWait(WebDriverFactory.driver(), 5)
         wait.until(element_to_be_clickable((By.XPATH, xpath)))
         get_element(xpath).click()
         log().info("Click on " + xpath)

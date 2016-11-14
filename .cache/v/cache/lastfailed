@@ -1,1 +1,3 @@
-{}
+{
+  "tests/registration_suite/_001_invalid_emails_test.py::test_001": true
+}

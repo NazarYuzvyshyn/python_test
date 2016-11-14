@@ -1,0 +1,22 @@
+1479044221089	geckodriver	INFO	Listening on 127.0.0.1:53118
+1479044222910	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.gx6nSXvirC7L
+1479044222918	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479044222949	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53124
+1479044226559	Marionette	INFO	Listening on port 53124
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-86933296649e983d9bad.f48f4bedc28f.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479044332376	geckodriver	INFO	Listening on 127.0.0.1:53144
+1479044334408	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.gWczlcZqDWkR
+1479044334417	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479044334434	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53150
+1479044336652	Marionette	INFO	Listening on port 53150
+1479044552737	geckodriver	INFO	Listening on 127.0.0.1:53171
+1479044554582	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.bupZEcRvRBbb
+1479044554590	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479044554609	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53177
+1479044557130	Marionette	INFO	Listening on port 53177
+1479068093667	geckodriver	INFO	Listening on 127.0.0.1:59235
+1479068095240	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.bcEkzlOOtf6i
+1479068095250	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479068095358	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59245
+1479068106716	Marionette	INFO	Listening on port 59245
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-86933296649e983d9bad.f48f4bedc28f.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create

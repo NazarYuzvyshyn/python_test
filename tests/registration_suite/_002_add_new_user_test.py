@@ -8,7 +8,8 @@ from main.pages.profile_page import ProfilePage
 from main.pages.regiter_page import RegisterPage
 
 
-def test_001(web_driver):
+def test_002(web_driver):
+    pass
     message = "profile"
 
     get_url(BASE_URL)
