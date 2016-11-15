@@ -1,5 +1,5 @@
 import time
-from properties.p import Property
+from properties import p
 from ..custom_utils.constants import PROP_PATH
 
 
@@ -13,7 +13,7 @@ class User:
 
     def __init__(self, property_name):
         """ This model of User is created from configured property file """
-        prop = Property()
+        prop = p.Property()
         dic = prop.load_property_files(PROP_PATH + property_name + ".properties")
         self.email = str(self.millis()) + dic['email']
         self.password = dic['password']
