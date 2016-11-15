@@ -44,4 +44,5 @@ class WebDriverFactory:
     def kill_driver():
         if WebDriverFactory.thLoc.__driver is not None:
             WebDriverFactory.thLoc.__driver.quit()
+            WebDriverFactory.thLoc.__driver = None
             log().info("Driver has been killed")
