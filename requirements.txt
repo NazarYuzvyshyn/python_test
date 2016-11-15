@@ -1,5 +1,4 @@
 selenium
 pytest
-properties
 PyFunctional
 nose
