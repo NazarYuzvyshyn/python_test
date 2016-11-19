@@ -1,9 +1,9 @@
 # =====================================    WEB CONSTANCE   ===================================== #
-BASE_URL = "https://lvbrick.com.ua/"
-REGISTER_PAGE = "register"
+BASE_URL = "https://www.gd.tickets.ua/"
+LIQPAY = "https://www.liqpay.com/ru/checkout"
 
 
 
 # ====================================     FILE CONSTANCE   ===================================== #
-PROP_PATH = "D:\\PROGRAMMIROVANIE\\MY_JAVA\pycharmProjects\\newproj\\property_files\\"
-DRIVER_PATH = "D:/PROGRAMMIROVANIE/MY_JAVA/pycharmProjects/newproj/drivers/"
+PROP_PATH = "newproj/property_files/"
+DRIVER_PATH = "newproj/drivers/"

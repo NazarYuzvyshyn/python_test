@@ -1,2 +1,0 @@
-email=@inbox.ru
-password=rahja18Ti*8

@@ -5,7 +5,7 @@ from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
 
 from main.custom_utils.constants import DRIVER_PATH
-from ..custom_utils.custom_logger import log
+from ..custom_utils.custom_logger import *
 
 
 class WebDriverFactory:
@@ -29,15 +29,15 @@ class WebDriverFactory:
     def set_driver(browser):
         if WebDriverFactory.thLoc.__driver is None:
             if browser.__eq__("ff"):
-                log().info("Set Firefox driver")
+                info("Set Firefox driver")
                 WebDriverFactory.thLoc.__driver = webdriver.Firefox()
             if browser.__eq__("chrome"):
                 path = WebDriverFactory.chrome_settings(platform.system())
                 WebDriverFactory.thLoc.__driver = webdriver.Chrome(executable_path=path)
-                log().info("Set Chrome driver")
+                info("Set Chrome driver")
                 WebDriverFactory.thLoc.__driver.maximize_window()
         else:
-            log().warn("WebDriver is initialized! : " + str(WebDriverFactory.thLoc.__driver))
+            error("WebDriver is initialized! : " + str(WebDriverFactory.thLoc.__driver))
             raise WebDriverException
 
     @staticmethod
@@ -45,4 +45,4 @@ class WebDriverFactory:
         if WebDriverFactory.thLoc.__driver is not None:
             WebDriverFactory.thLoc.__driver.quit()
             WebDriverFactory.thLoc.__driver = None
-            log().info("Driver has been killed")
+            info("Driver has been killed")

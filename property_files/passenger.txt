@@ -1,0 +1,11 @@
+firstName=Назар
+lastName=Юзвишин
+phone=905147405
+age=взрослый
+paySystem=Приват 24
+phoneCode=380
+tea=1
+cargo=true
+noBed=false
+reserve=false
+email=@inbox.ru

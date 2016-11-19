@@ -1,15 +1,42 @@
-from main.custom_utils.general_servise import wait_change_url, page_url
-from ..custom_utils.web_elem_servise import click_on
-from ..custom_utils.custom_logger import log
-from ..custom_utils.web_driver_factory import WebDriverFactory
+from selenium.webdriver.common.by import By
+
+from main.business_object.ticket import Ticket
+from main.custom_utils.wait_utils import wait_for_url, wait_element_visible
+from ..custom_utils.custom_logger import *
+from ..custom_utils.web_elem_utils import *
 
 
 class MainPage:
-    driver = WebDriverFactory.driver()
-    register_page = "//*[contains(@class,'menu-header')]//*[text()='Реєстрація']"
+    def __init__(self, ticket: Ticket):
+        self.ticket = ticket
 
-    def goto_register_page(self):
-        current_url = page_url()
-        click_on(self.register_page)
-        wait_change_url(current_url, 20)
-        log().info("Expected page: Registration")
+    def get_ticket(self):
+        info("--------- Departure point ---------")
+        trip_from = "//*[@id='from_name_as']"
+        input_keys_with_enter("Откуда", By.XPATH, trip_from, self.ticket.forward_city)
+        info("----------- Arrival point -----------")
+        trip_to = "//*[@id='to_name']"
+        input_keys_with_enter("Куда", By.XPATH, trip_to, self.ticket.backward_city)
+        date_field = "//*[@id='departure_date']"
+        self.set_date(self.ticket.forward_date, date_field)
+
+    def get_round_trip(self):
+        round_trip = "//*[@id='round_trip']/following-sibling::*"
+        click_on("'В обе стороны'", By.XPATH, round_trip)
+        date_field = "//*[@id='departure_date_back']"
+        self.set_date(self.ticket.backward_date, date_field)
+
+    def set_date(self, date, date_field):
+        click_on("", By.XPATH, date_field)
+        calendar = "//*[@id='ui-datepicker-div']"
+        wait_element_visible("Calendar", calendar, 5)
+        day = date.day
+        month = str(date.month - 1)
+        year = date.year
+        date_in_calendar = "//*[@data-year='" + year + "' and @data-month='" + month + "']/*[text()='" + day + "']"
+        click_on(date.__str__(), By.XPATH, date_in_calendar)
+
+    def search(self):
+        submit = "//*[contains(@class,'main-search__block')]//*[@type='submit']"
+        click_on("Поиск", By.XPATH, submit)
+        wait_for_url("results", 15)

@@ -1,8 +1,15 @@
+# -*- coding: utf-8 -*-
+
+import datetime
+import random
 import threading
+
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 
 
 class Test_test:
-    a = [10, 88, 23, 77, 89, 52, 102]
+    a = [1]
     __b = "string"
     lo = 487
     th = threading.local()
@@ -24,12 +31,24 @@ class Test_test:
 
 
 class Test_quest(Test_test):
+    daysToAdd = 45
     def __init__(self):
         super().__init__()
         print("lopi")
+        self.re = 45
 
+    @staticmethod
+    def io():
+        print(  )
 
-s = str(Test_test.lo)
-print(s[0])
-op = list(filter(lambda i: "8" in str(i), map(lambda i: str(i) + " ki", Test_test.a)))
-print(op)
+    def addDays(self, date, daysToAdd, exactOrRandom):
+        if exactOrRandom == 'random':
+            daysToAdd = random.randint(0, daysToAdd)
+        return date + datetime.timedelta(daysToAdd)
+
+# print(Test_quest.daysToAdd)
+s = str()
+if Test_test.a:
+    print("not empty")
+# op = list(filter(lambda i: "8" in str(i), map(lambda i: str(i) + " ki", Test_test.a)))
+# print(op)

@@ -1,5 +1,6 @@
 import pytest
-from main.custom_utils.custom_logger import log
+from main.custom_utils.custom_logger import *
+from main.custom_utils.general_utils import make_screenshot
 from main.custom_utils.web_driver_factory import WebDriverFactory
 
 
@@ -22,12 +23,11 @@ def pytest_runtest_makereport(item, __multicall__):
 @pytest.fixture(scope="function")
 def web_driver(request, get_brows):
     name = request.module.__name__[6:-5]
-    log().info("=============== " + name + " STARTED ==================")
+    info("=============== " + name + " STARTED ==================")
     WebDriverFactory.set_driver(get_brows)
     yield web_driver
     if request.node.rep_call.failed:
-        WebDriverFactory.driver().get_screenshot_as_file(
-            'D:/PROGRAMMIROVANIE/MY_JAVA/pycharmProjects/newproj/tests/screenshots/' + name + '.png')
+       make_screenshot(name + ' << FAILED TEST SCREENSHOT >>')
     WebDriverFactory.kill_driver()
-    log().info("=============== " + name + " FINISHED ==================")
+    info("=============== " + name + " FINISHED ==================")
     return web_driver
