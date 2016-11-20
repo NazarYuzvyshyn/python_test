@@ -1,7 +1,7 @@
 import datetime
 import random
 
-from main.custom_utils.general_utils import property_reader
+from property_files.prop_reader import property_reader
 
 
 class Ticket:
@@ -9,6 +9,8 @@ class Ticket:
         prop = property_reader(property_name)
         self.get_info = []
         self.get_round_info = []
+        self.price = None
+        self.round_price = None
 
         self.range = prop.get("range")
         self.days_to = prop.get("departureDays")

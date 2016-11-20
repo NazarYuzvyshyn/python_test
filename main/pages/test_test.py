@@ -3,9 +3,8 @@
 import datetime
 import random
 import threading
-import re
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
+
+from property_files.prop_reader import property_reader
 
 
 class Test_test:
@@ -63,23 +62,28 @@ class Test_quest(Test_test):
         return date + datetime.timedelta(daysToAdd)
 
 
+s = "\u041e\u0442\u043a\u0443\u0434\u0430"
 ase = ["hjdkdd, hsusdid, sksls    uiyr", "feredip hike lopi son", "fes ri do"]
 sew = ["fes", "ri", "do"]
-s = "$456.00"
-k = re.search("(\d+)", s).group()
-e = s.replace(re.search("[^\d]", s).group(), "")
-e = e.replace(re.search("\..+", e).group(), "")
-print(k)
+der = property_reader("ticket")
+d = der.get('arrivalTo')
+
+print(d)
+
 # list = [i for i in ase for k in sew if k in i]
-# for i in ase:
-#     Test_quest.che = 0
-#     for k in sew:
-#         if k not in i:
-#             Test_quest.che = 1
-#             break
-#     if Test_quest.che is 0:
-#         Test_quest.info = i
-# #
+g = list(map(lambda i: i.upper(), ase))
+print(g)
+checker = 0
+for itr in ase:
+    checker = 0
+    for k in sew:
+        if k not in itr:
+            checker = 1
+            break
+    if checker is 0:
+        print("%s <<contains>> %s" % (itr, sew))
+if checker is 1:
+    print("%s <<doesn't contains>> %s" % (itr, sew))
 # print(Test_quest.info)
 # print(list)
 

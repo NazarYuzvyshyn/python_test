@@ -1,6 +1,6 @@
 import time
 
-from main.custom_utils.general_utils import property_reader
+from property_files.prop_reader import property_reader
 
 
 class Passenger:

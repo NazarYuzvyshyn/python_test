@@ -1,0 +1,2 @@
+21:49:51.352 - INFO - =============== buy_ticket_suite.by_round_ticket STARTED ==================
+21:49:59.217 - INFO - Set Firefox driver

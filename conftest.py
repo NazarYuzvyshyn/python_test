@@ -1,7 +1,7 @@
 import pytest
-from main.custom_utils.custom_logger import *
-from main.custom_utils.general_utils import make_screenshot
-from main.custom_utils.web_driver_factory import WebDriverFactory
+from main.custom_services.custom_logger import *
+from main.custom_services.general_services import make_screenshot
+from main.custom_services.web_driver_factory import WebDriverFactory
 
 
 def pytest_addoption(parser):
@@ -25,9 +25,14 @@ def web_driver(request, get_brows):
     name = request.module.__name__[6:-5]
     info("=============== " + name + " STARTED ==================")
     WebDriverFactory.set_driver(get_brows)
-    yield web_driver
+
+
+@pytest.yield_fixture(scope="function")
+def end(request):
+    yield end
+    info("yield")
+    name = request.module.__name__[6:-5]
     if request.node.rep_call.failed:
         make_screenshot(name + ' << FAILED TEST SCREENSHOT >>')
     WebDriverFactory.kill_driver()
     info("=============== " + name + " FINISHED ==================")
-    return web_driver

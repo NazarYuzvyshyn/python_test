@@ -1,0 +1,289 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1479671391350" stop="1479671499981">
+  <name>tests.buy_ticket_suite.by_round_ticket_test</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1479671391350" status="failed" stop="1479671499981">
+      <name>test_001</name>
+      <failure>
+        <stack-trace>web_driver = None, end = &lt;function end at 0x02FAD858&gt;
+
+    def test_001(web_driver, end):
+        ticket = Ticket("ticket")
+        passenger = Passenger("passenger")
+        info("test")
+        go_to(BASE_URL)
+    
+        main_page = MainPage(ticket)
+        main_page.get_ticket()
+        main_page.get_round_trip()
+        main_page.search()
+    
+        result_page = ResultsPage(ticket, passenger)
+        result_page.get_random_train()
+        result_page.get_random_place_type()
+        result_page.get_random_place()
+        result_page.fill_passenger_form()
+        result_page.fill_contact_info()
+        result_page.accept_offerta()
+        result_page.submit()
+    
+        #  Round ticket buying
+        result_page.get_random_train()
+        result_page.get_random_place_type()
+        result_page.get_random_place()
+        result_page.submit()
+    
+        purchase_page = PurchasePage()
+&gt;       assert purchase_page.check_ticket_info(ticket.get_info) is True
+E       assert &lt;bound method PurchasePage.check_ticket_info of &lt;main.pages.purchase_page.PurchasePage object at 0x02FF9810&gt;&gt;([' 22 ', '115Л', 'Люкс', '16', 'Юзвишин Назар']) is True
+E        +  where &lt;bound method PurchasePage.check_ticket_info of &lt;main.pages.purchase_page.PurchasePage object at 0x02FF9810&gt;&gt; = &lt;main.pages.purchase_page.PurchasePage object at 0x02FF9810&gt;.check_ticket_info
+E        +  and   [' 22 ', '115Л', 'Люкс', '16', 'Юзвишин Назар'] = &lt;main.business_object.ticket.Ticket object at 0x03045D10&gt;.get_info
+
+tests\buy_ticket_suite\by_round_ticket_test.py:39: AssertionError</stack-trace>
+        <message>AssertionError: assert &lt;bound method PurchasePage.check_ticket_info of &lt;main.pages.purchase_page.PurchasePage object at 0x02FF9810&gt;&gt;([' 22 ', '115Л', 'Люкс', '16', 'Юзвишин Назар']) is True
+ +  where &lt;bound method PurchasePage.check_ticket_info of &lt;main.pages.purchase_page.PurchasePage object at 0x02FF9810&gt;&gt; = &lt;main.pages.purchase_page.PurchasePage object at 0x02FF9810&gt;.check_ticket_info
+ +  and   [' 22 ', '115Л', 'Люкс', '16', 'Юзвишин Назар'] = &lt;main.business_object.ticket.Ticket object at 0x03045D10&gt;.get_info</message>
+      </failure>
+      <attachments>
+        <attachment source="a2797e81-35a2-4043-91b6-b5eb0b4a6109-attachment.txt" title="Captured stderr setup" type="text/plain"/>
+        <attachment source="2263d5bb-ecf5-444a-bc32-c177481a073d-attachment.txt" title="Captured stderr call" type="text/plain"/>
+        <attachment source="1d4434cf-ba44-4bb8-95d2-8bd4188fb237-attachment.png" title="buy_ticket_suite.by_round_ticket &lt;&lt; FAILED TEST SCREENSHOT &gt;&gt;" type="image/png"/>
+      </attachments>
+      <steps>
+        <step start="1479671391352" status="passed" stop="1479671391353">
+          <name>=============== buy_ticket_suite.by_round_ticket STARTED ==================</name>
+          <title>=============== buy_ticket_suite.by_round_ticket STARTED ==================</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671399218" status="passed" stop="1479671399218">
+          <name>Set Firefox driver</name>
+          <title>Set Firefox driver</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671399302" status="passed" stop="1479671399302">
+          <name>test</name>
+          <title>test</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671404332" status="passed" stop="1479671404332">
+          <name>Go to https://gd.tickets.ua/</name>
+          <title>Go to https://gd.tickets.ua/</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671404332" status="passed" stop="1479671404332">
+          <name>--------- Departure point ---------</name>
+          <title>--------- Departure point ---------</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671404447" status="passed" stop="1479671404447">
+          <name>Input Львов into Откуда</name>
+          <title>Input Львов into Откуда</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671405736" status="passed" stop="1479671405737">
+          <name>Send key: ENTER</name>
+          <title>Send key: ENTER</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671405737" status="passed" stop="1479671405737">
+          <name>----------- Arrival point -----------</name>
+          <title>----------- Arrival point -----------</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671405825" status="passed" stop="1479671405825">
+          <name>Input Киев into Куда</name>
+          <title>Input Киев into Куда</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671407057" status="passed" stop="1479671407058">
+          <name>Send key: ENTER</name>
+          <title>Send key: ENTER</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671412395" status="passed" stop="1479671412395">
+          <name>Click on   //*[@id='departure_date']</name>
+          <title>Click on   //*[@id='departure_date']</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671417682" status="passed" stop="1479671417682">
+          <name>Click on 2016-11-22  //*[@data-year='2016' and @data-month='10']/*[text()='22']</name>
+          <title>Click on 2016-11-22  //*[@data-year='2016' and @data-month='10']/*[text()='22']</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671422801" status="passed" stop="1479671422802">
+          <name>Click on 'В обе стороны'  //*[contains(@class,'iradio_minimal') and child::*[@id='round_trip']]</name>
+          <title>Click on 'В обе стороны'  //*[contains(@class,'iradio_minimal') and child::*[@id='round_trip']]</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671428221" status="passed" stop="1479671428222">
+          <name>Click on   //*[@id='departure_date_back']</name>
+          <title>Click on   //*[@id='departure_date_back']</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671433461" status="passed" stop="1479671433462">
+          <name>Click on 2016-11-29  //*[@data-year='2016' and @data-month='10']/*[text()='29']</name>
+          <title>Click on 2016-11-29  //*[@data-year='2016' and @data-month='10']/*[text()='29']</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671438735" status="passed" stop="1479671438735">
+          <name>Click on Поиск  //*[contains(@class,'main-search__block')]//*[@type='submit']</name>
+          <title>Click on Поиск  //*[contains(@class,'main-search__block')]//*[@type='submit']</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671444448" status="passed" stop="1479671444448">
+          <name>--------------- Train -------------</name>
+          <title>--------------- Train -------------</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671444448" status="passed" stop="1479671444448">
+          <name>Поезд: 115Л </name>
+          <title>Поезд: 115Л </title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671449768" status="passed" stop="1479671449768">
+          <name>Click on Тип: Люкс  ((//*[contains(@class,'free-places') and preceding-sibling::*[contains(@class,'train')]])[6]//span/../a)[1]</name>
+          <title>Click on Тип: Люкс  ((//*[contains(@class,'free-places') and preceding-sibling::*[contains(@class,'train')]])[6]//span/../a)[1]</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671458515" status="passed" stop="1479671458515">
+          <name>Click on Место: 16  (//*[contains(@class,'sits_block')]//a)[10]</name>
+          <title>Click on Место: 16  (//*[contains(@class,'sits_block')]//a)[10]</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671458692" status="passed" stop="1479671458692">
+          <name>Input Юзвишин into Фамилия</name>
+          <title>Input Юзвишин into Фамилия</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671459700" status="passed" stop="1479671459701">
+          <name>Input Назар into Имя</name>
+          <title>Input Назар into Имя</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671459913" status="passed" stop="1479671459914">
+          <name>Input 1479671399302@inbox.ru into Email</name>
+          <title>Input 1479671399302@inbox.ru into Email</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671460084" status="passed" stop="1479671460084">
+          <name>Input 905147405 into Номер телефона</name>
+          <title>Input 905147405 into Номер телефона</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671465265" status="passed" stop="1479671465265">
+          <name>Click on Я принимаю правила публичной оферты  //*[@id='i_accept_offerta']/..</name>
+          <title>Click on Я принимаю правила публичной оферты  //*[@id='i_accept_offerta']/..</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671465302" status="passed" stop="1479671465303">
+          <name>-----------------------------------</name>
+          <title>-----------------------------------</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671470647" status="passed" stop="1479671470647">
+          <name>Click on Продолжить  //*[contains(@class,'buy-block')]//*[@type='submit']</name>
+          <title>Click on Продолжить  //*[contains(@class,'buy-block')]//*[@type='submit']</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671474880" status="passed" stop="1479671474880">
+          <name>--------------- Train -------------</name>
+          <title>--------------- Train -------------</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671474880" status="passed" stop="1479671474880">
+          <name>Поезд: 049К КОБЗАРЬ</name>
+          <title>Поезд: 049К КОБЗАРЬ</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671480192" status="passed" stop="1479671480193">
+          <name>Click on Тип: Люкс  ((//*[contains(@class,'free-places') and preceding-sibling::*[contains(@class,'train')]])[9]//span/../a)[1]</name>
+          <title>Click on Тип: Люкс  ((//*[contains(@class,'free-places') and preceding-sibling::*[contains(@class,'train')]])[9]//span/../a)[1]</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671488355" status="passed" stop="1479671488355">
+          <name>Click on Место: 10  (//*[contains(@class,'sits_block')]//a)[6]</name>
+          <title>Click on Место: 10  (//*[contains(@class,'sits_block')]//a)[6]</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671488396" status="passed" stop="1479671488396">
+          <name>-----------------------------------</name>
+          <title>-----------------------------------</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671493777" status="passed" stop="1479671493777">
+          <name>Click on Продолжить  //*[contains(@class,'buy-block')]//*[@type='submit']</name>
+          <title>Click on Продолжить  //*[contains(@class,'buy-block')]//*[@type='submit']</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671499960" status="passed" stop="1479671499960">
+          <name>&lt;map object at 0x03065EF0&gt; &lt;&lt;doesn't contains&gt;&gt; [' 22 ', '115Л', 'Люкс', '16', 'Юзвишин Назар']</name>
+          <title>&lt;map object at 0x03065EF0&gt; &lt;&lt;doesn't contains&gt;&gt; [' 22 ', '115Л', 'Люкс', '16', 'Юзвишин Назар']</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671499982" status="passed" stop="1479671499983">
+          <name>yield</name>
+          <title>yield</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671500138" status="passed" stop="1479671500138">
+          <name>buy_ticket_suite.by_round_ticket &lt;&lt; FAILED TEST SCREENSHOT &gt;&gt; &lt;&lt; FAILED SCREENSHOT &gt;&gt;</name>
+          <title>buy_ticket_suite.by_round_ticket &lt;&lt; FAILED TEST SCREENSHOT &gt;&gt; &lt;&lt; FAILED SCREENSHOT &gt;&gt;</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671500653" status="passed" stop="1479671500654">
+          <name>Driver has been killed</name>
+          <title>Driver has been killed</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1479671500654" status="passed" stop="1479671500654">
+          <name>=============== buy_ticket_suite.by_round_ticket FINISHED ==================</name>
+          <title>=============== buy_ticket_suite.by_round_ticket FINISHED ==================</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="888-MainThread"/>
+        <label name="host" value="Назар-ПК"/>
+      </labels>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -20,3 +20,343 @@ JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-8
 1479068095358	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59245
 1479068106716	Marionette	INFO	Listening on port 59245
 JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-86933296649e983d9bad.f48f4bedc28f.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479637824273	geckodriver	INFO	Listening on 127.0.0.1:50340
+1479637826287	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.rt4DFIOu4gcC
+1479637826297	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479637826589	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50346
+1479637839296	Marionette	INFO	Listening on port 50346
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479638093464	geckodriver	INFO	Listening on 127.0.0.1:50395
+1479638095384	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.KbLcldl1Cl1n
+1479638095393	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479638095417	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50401
+1479638098548	Marionette	INFO	Listening on port 50401
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479639232836	geckodriver	INFO	Listening on 127.0.0.1:50633
+1479639234673	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.XqazhCt8xArh
+1479639234682	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479639234701	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50639
+1479639237749	Marionette	INFO	Listening on port 50639
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479639483493	geckodriver	INFO	Listening on 127.0.0.1:50705
+1479639485318	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.HGU0DPvdVBAc
+1479639485348	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479639485370	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50711
+1479639488693	Marionette	INFO	Listening on port 50711
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479639663377	geckodriver	INFO	Listening on 127.0.0.1:50737
+1479639665367	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.p7TS2YUmsoRV
+1479639665374	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479639665393	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50743
+1479639668505	Marionette	INFO	Listening on port 50743
+1479639727065	geckodriver	INFO	Listening on 127.0.0.1:50759
+1479639729109	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.LAJKm2jA7vGB
+1479639729118	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479639729136	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50765
+1479639731385	Marionette	INFO	Listening on port 50765
+1479640851243	geckodriver	INFO	Listening on 127.0.0.1:50947
+1479640853190	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.Zl3R6tM6XYcC
+1479640853194	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479640853209	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50953
+1479640856660	Marionette	INFO	Listening on port 50953
+1479641334528	geckodriver	INFO	Listening on 127.0.0.1:51080
+1479641336424	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.66P45Exvcgb1
+1479641336432	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479641336452	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51086
+1479641339712	Marionette	INFO	Listening on port 51086
+1479641408029	geckodriver	INFO	Listening on 127.0.0.1:51108
+1479641410078	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.EQb7C6JSDxFe
+1479641410083	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479641410100	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51114
+1479641412372	Marionette	INFO	Listening on port 51114
+1479641452991	geckodriver	INFO	Listening on 127.0.0.1:51134
+1479641455047	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.snv3V6eB4thg
+1479641455054	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479641455072	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51140
+1479641457309	Marionette	INFO	Listening on port 51140
+1479641513939	geckodriver	INFO	Listening on 127.0.0.1:51158
+1479641515837	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.PJgD4I1JZ3Ks
+1479641515846	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479641515868	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51164
+1479641519031	Marionette	INFO	Listening on port 51164
+1479641745253	geckodriver	INFO	Listening on 127.0.0.1:51217
+1479641747154	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.nx4Y6wk5WDqY
+1479641747161	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479641747176	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51223
+1479641750426	Marionette	INFO	Listening on port 51223
+1479641809521	geckodriver	INFO	Listening on 127.0.0.1:51238
+1479641811572	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.tyIw3VxSoEMh
+1479641811578	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479641811595	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51244
+1479641813767	Marionette	INFO	Listening on port 51244
+1479643182858	geckodriver	INFO	Listening on 127.0.0.1:51411
+1479643184731	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.WqA8aMHuDDaT
+1479643184741	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479643184767	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51418
+1479643188562	Marionette	INFO	Listening on port 51418
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1479643834910	geckodriver	INFO	Listening on 127.0.0.1:51525
+1479643836492	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.tLeMVlGnLgg0
+1479643836496	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479643836512	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51532
+1479643856083	Marionette	INFO	Listening on port 51532
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479645950237	geckodriver	INFO	Listening on 127.0.0.1:52182
+1479645952230	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.0pEIb82iEXQC
+1479645952239	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479645952267	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52188
+1479645955536	Marionette	INFO	Listening on port 52188
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479646982391	geckodriver	INFO	Listening on 127.0.0.1:52436
+1479646984257	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.07yvLYcDS58w
+1479646984265	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479646984285	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52442
+1479646987263	Marionette	INFO	Listening on port 52442
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479650733407	geckodriver	INFO	Listening on 127.0.0.1:53126
+1479650735237	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.iC5nGOE5inpF
+1479650735247	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479650735267	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53132
+1479650741130	Marionette	INFO	Listening on port 53132
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479651444484	geckodriver	INFO	Listening on 127.0.0.1:53533
+1479651446333	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.YSfTad9GLgzG
+1479651446341	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479651446360	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53539
+1479651449122	Marionette	INFO	Listening on port 53539
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479652296514	geckodriver	INFO	Listening on 127.0.0.1:53738
+1479652298449	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.3B6gUH32oiTL
+1479652298454	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479652298471	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53744
+1479652301638	Marionette	INFO	Listening on port 53744
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479652914646	geckodriver	INFO	Listening on 127.0.0.1:53897
+1479652916659	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.twPJEUTS9Nnx
+1479652916668	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479652916685	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53903
+1479652919747	Marionette	INFO	Listening on port 53903
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479653007623	geckodriver	INFO	Listening on 127.0.0.1:53980
+1479653009663	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.6pFCBBW3lsX6
+1479653009671	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479653009688	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53986
+1479653012070	Marionette	INFO	Listening on port 53986
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1479653856364	geckodriver	INFO	Listening on 127.0.0.1:54339
+1479653858250	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.7sP94PeNpe4q
+1479653858255	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479653858272	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54345
+1479653861663	Marionette	INFO	Listening on port 54345
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479654336513	geckodriver	INFO	Listening on 127.0.0.1:54508
+1479654338499	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.e7JPGNZ32aao
+1479654338509	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479654338533	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54514
+1479654343387	Marionette	INFO	Listening on port 54514
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479654858021	geckodriver	INFO	Listening on 127.0.0.1:54723
+1479654859590	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.3tdpo1XdF2pD
+1479654859600	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479654859626	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54729
+1479654865693	Marionette	INFO	Listening on port 54729
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479655129854	geckodriver	INFO	Listening on 127.0.0.1:54837
+1479655131720	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.HfJmjn2iyazz
+1479655131724	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479655131740	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54844
+1479655138033	Marionette	INFO	Listening on port 54844
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479655287157	geckodriver	INFO	Listening on 127.0.0.1:54948
+1479655289030	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.Xu5kNhzF42NW
+1479655289036	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479655289140	geckodriver::marionette	INFO	Connecting to Marionette on localhost:54954
+1479655293085	Marionette	INFO	Listening on port 54954
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479655492489	geckodriver	INFO	Listening on 127.0.0.1:55055
+1479655494425	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.05CpwSsbk80y
+1479655494434	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479655494457	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55061
+1479655498004	Marionette	INFO	Listening on port 55061
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479655686227	geckodriver	INFO	Listening on 127.0.0.1:55181
+1479655688263	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.TjWa7zaKFysB
+1479655688269	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479655688283	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55187
+1479655692733	Marionette	INFO	Listening on port 55187
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479655976794	geckodriver	INFO	Listening on 127.0.0.1:55321
+1479655978672	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.txeQVGCqhEEB
+1479655978681	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479655978699	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55327
+1479655982396	Marionette	INFO	Listening on port 55327
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.tickets.ua/js/v2/controllers/results/gd/gd_steps_controller.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 112: unreachable code after return statement
+1479656990370	geckodriver	INFO	Listening on 127.0.0.1:55696
+1479656992391	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.Qp4U4GLPspPJ
+1479656992399	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479656992415	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55702
+1479656996076	Marionette	INFO	Listening on port 55702
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.tickets.ua/js/v2/controllers/results/gd/gd_steps_controller.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 112: unreachable code after return statement
+1479657226264	geckodriver	INFO	Listening on 127.0.0.1:55858
+1479657228281	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.q6j8eiMiWy9r
+1479657228285	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479657228300	geckodriver::marionette	INFO	Connecting to Marionette on localhost:55864
+1479657231869	Marionette	INFO	Listening on port 55864
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479658542059	geckodriver	INFO	Listening on 127.0.0.1:56149
+1479658544096	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.Lru8xKL9Rywt
+1479658544102	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479658544116	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56155
+1479658545866	Marionette	INFO	Listening on port 56155
+1479658622394	geckodriver	INFO	Listening on 127.0.0.1:56167
+1479658624426	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.FVlp9A67hklC
+1479658624436	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479658624454	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56173
+1479658625887	Marionette	INFO	Listening on port 56173
+1479658708723	geckodriver	INFO	Listening on 127.0.0.1:56191
+1479658710740	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.LNhejMt3OSUn
+1479658710747	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479658710763	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56197
+1479658712456	Marionette	INFO	Listening on port 56197
+1479659192887	geckodriver	INFO	Listening on 127.0.0.1:56313
+1479659194909	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.N3K2ewaX5prS
+1479659194920	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479659194936	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56319
+1479659196493	Marionette	INFO	Listening on port 56319
+1479659285551	geckodriver	INFO	Listening on 127.0.0.1:56330
+1479659287593	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.4v6v11YYRsat
+1479659287598	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479659287616	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56336
+1479659289201	Marionette	INFO	Listening on port 56336
+1479660133295	geckodriver	INFO	Listening on 127.0.0.1:56578
+1479660135322	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.oiO1NjbppCIc
+1479660135331	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479660135350	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56584
+1479660136915	Marionette	INFO	Listening on port 56584
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479660208382	geckodriver	INFO	Listening on 127.0.0.1:56603
+1479660210408	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.OD5B6mUnEwBU
+1479660210480	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479660210510	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56609
+1479660212197	Marionette	INFO	Listening on port 56609
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479660287892	geckodriver	INFO	Listening on 127.0.0.1:56628
+1479660289930	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.tDWTjOcAomJ7
+1479660289935	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479660289950	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56634
+1479660291503	Marionette	INFO	Listening on port 56634
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479664184750	geckodriver	INFO	Listening on 127.0.0.1:56764
+1479664186896	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.09HcnWgqMCql
+1479664186906	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479664186943	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56770
+1479664192307	Marionette	INFO	Listening on port 56770
+1479664391104	geckodriver	INFO	Listening on 127.0.0.1:56798
+1479664393043	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.CZ861EzdVSHM
+1479664393051	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479664393067	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56804
+1479664395692	Marionette	INFO	Listening on port 56804
+1479667015794	geckodriver	INFO	Listening on 127.0.0.1:56875
+1479667017688	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.TbB8KJ5zqBVl
+1479667017698	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479667017727	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56881
+1479667020400	Marionette	INFO	Listening on port 56881
+1479667237660	geckodriver	INFO	Listening on 127.0.0.1:56900
+1479667239748	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.eW0WHz3crnLz
+1479667239757	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479667239784	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56906
+1479667242267	Marionette	INFO	Listening on port 56906
+1479667477527	geckodriver	INFO	Listening on 127.0.0.1:56963
+1479667479525	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.TRNboOuSwzfM
+1479667479535	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479667479553	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56969
+1479667482492	Marionette	INFO	Listening on port 56969
+1479667529153	geckodriver	INFO	Listening on 127.0.0.1:56983
+1479667531200	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.LSarM27eCqGj
+1479667531209	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479667531237	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56989
+1479667532784	Marionette	INFO	Listening on port 56989
+1479667680349	geckodriver	INFO	Listening on 127.0.0.1:57002
+1479667682387	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.VgDAvHrB20Re
+1479667682396	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479667682415	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57008
+1479667684402	Marionette	INFO	Listening on port 57008
+1479667721145	geckodriver	INFO	Listening on 127.0.0.1:57020
+1479667723189	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.txLCE87sKzBa
+1479667723198	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479667723217	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57026
+1479667724780	Marionette	INFO	Listening on port 57026
+1479667996288	geckodriver	INFO	Listening on 127.0.0.1:57045
+1479667998220	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.xWxn85Z0IQtZ
+1479667998229	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479667998251	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57051
+1479668000940	Marionette	INFO	Listening on port 57051
+1479668241153	geckodriver	INFO	Listening on 127.0.0.1:57064
+1479668243193	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.qL9ykE7a8xi3
+1479668243202	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479668243227	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57070
+1479668244798	Marionette	INFO	Listening on port 57070
+1479668334621	geckodriver	INFO	Listening on 127.0.0.1:57081
+1479668336661	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.VFi7fQIDGvjP
+1479668336670	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479668336687	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57087
+1479668338269	Marionette	INFO	Listening on port 57087
+1479668498659	geckodriver	INFO	Listening on 127.0.0.1:57102
+1479668500580	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.td2EhE4aYk3b
+1479668500588	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479668500607	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57108
+1479668503625	Marionette	INFO	Listening on port 57108
+1479668551212	geckodriver	INFO	Listening on 127.0.0.1:57120
+1479668553270	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.xsBrV8h7fYjJ
+1479668553279	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479668553305	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57126
+1479668555564	Marionette	INFO	Listening on port 57126
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.tickets.ua/js/v2/controllers/results/gd/gd_steps_controller.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 112: unreachable code after return statement
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.tickets.ua/js/v2/controllers/results/gd/gd_steps_controller.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 112: unreachable code after return statement
+1479668846421	geckodriver	INFO	Listening on 127.0.0.1:57343
+1479668848375	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.OYZ1ZQ4GsKqJ
+1479668848382	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479668848403	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57349
+1479668851486	Marionette	INFO	Listening on port 57349
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1479671391390	geckodriver	INFO	Listening on 127.0.0.1:57580
+1479671393424	mozprofile::profile	INFO	Using profile path C:\Users\Nazar\AppData\Local\Temp\rust_mozprofile.qli8qAyji3zK
+1479671393432	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1479671393452	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57586
+1479671395559	Marionette	INFO	Listening on port 57586
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-9e26e649d827af164113.a0bc6be53ed8.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.tickets.ua/js/v2/controllers/results/gd/gd_steps_controller.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 112: unreachable code after return statement
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://static.tickets.ua/js/v2/controllers/results/gd/gd_steps_controller.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 112: unreachable code after return statement
+JavaScript warning: https://static.tickets.ua/js/jquery-1.9.1.min.js?v=ebd4df934960facb3bb8fc8246ddc675f05f7886, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
