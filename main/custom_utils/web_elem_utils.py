@@ -42,5 +42,5 @@ def get_elements(by_what: By, locator) -> list:
 
 
 def element_text_content(element):
-        text = element.get_attribute('textContent')
-        return text
+    text = element.get_attribute('textContent')
+    return text

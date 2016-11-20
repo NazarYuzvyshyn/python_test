@@ -9,6 +9,7 @@ from ..custom_utils.web_elem_utils import *
 class MainPage:
     def __init__(self, ticket: Ticket):
         self.ticket = ticket
+        self.day = None
 
     def get_ticket(self):
         info("--------- Departure point ---------")
@@ -18,19 +19,22 @@ class MainPage:
         trip_to = "//*[@id='to_name']"
         input_keys_with_enter("Куда", By.XPATH, trip_to, self.ticket.backward_city)
         date_field = "//*[@id='departure_date']"
-        self.set_date(self.ticket.forward_date, date_field)
+        self.__set_date(self.ticket.forward_date, date_field)
+        self.ticket.get_info.append(self.day)
 
     def get_round_trip(self):
         round_trip = "//*[@id='round_trip']/following-sibling::*"
         click_on("'В обе стороны'", By.XPATH, round_trip)
         date_field = "//*[@id='departure_date_back']"
-        self.set_date(self.ticket.backward_date, date_field)
+        self.__set_date(self.ticket.backward_date, date_field)
+        self.ticket.get_round_info.append(self.day)
 
-    def set_date(self, date, date_field):
+    def __set_date(self, date, date_field):
         click_on("", By.XPATH, date_field)
         calendar = "//*[@id='ui-datepicker-div']"
         wait_element_visible("Calendar", calendar, 5)
         day = date.day
+        self.day = " %s " % day
         month = str(date.month - 1)
         year = date.year
         date_in_calendar = "//*[@data-year='" + year + "' and @data-month='" + month + "']/*[text()='" + day + "']"

@@ -2,7 +2,7 @@ import random
 
 from main.business_object.passenger import Passenger
 from main.business_object.ticket import Ticket
-from main.custom_utils.general_utils import get_url
+from main.custom_utils.general_utils import get_url, clear_price
 from ..custom_utils.wait_utils import *
 from ..custom_utils.web_elem_utils import *
 
@@ -25,9 +25,9 @@ class ResultsPage:
         info("--------------- Train -------------")
         info("Поезд: " + train_number)
         if self.counter == 0:
-            self.ticket.train_number = train_number
+            self.ticket.get_info.append(train_number[:4])
         else:
-            self.ticket.train_number_round = train_number
+            self.ticket.get_round_info.append(train_number[:4])
         return index
 
     def get_random_place_type(self, index):
@@ -43,9 +43,9 @@ class ResultsPage:
         choose_type = "(%s//span/../a)[%s]" % (block, type_index + 1)
         click_on("Тип: " + text, By.XPATH, choose_type)
         if self.counter == 0:
-            self.ticket.place_type = text
+            self.ticket.get_info.append(text)
         else:
-            self.ticket.place_type_round = text
+            self.ticket.get_round_info.append(text)
 
     def get_random_place(self):
         """ Gets available free place in chosen train and place category."""
@@ -57,16 +57,18 @@ class ResultsPage:
         place = "(%s)[%s]" % (free_places, place_index + 1)
         click_on("Место: " + text, By.XPATH, place)
         if self.counter == 0:
-            self.ticket.place_number = text
+            self.ticket.get_info.append(text)
         else:
-            self.ticket.place_number_round = text
+            self.ticket.get_round_info.append(text)
 
     def fill_passenger_form(self):
         last_name = "//*[contains(@id,'lastname')]"
         input_keys("Фамилия", By.XPATH, last_name, self.passenger.last_name)
         first_name = "//*[contains(@id,'firstname')]"
         input_keys("Имя", By.XPATH, first_name, self.passenger.first_name)
-        self.ticket.last_and_first_names = self.passenger.last_name + " " + self.passenger.first_name
+        full_name = self.passenger.last_name + " " + self.passenger.first_name
+        self.ticket.get_info.append(full_name)
+        self.ticket.get_round_info.append(full_name)
 
     def fill_contact_info(self):
         email = "//*[@id='user_form']//*[@id='email']"
@@ -82,9 +84,9 @@ class ResultsPage:
         price = "//*[contains(@class,'buy-block')]//strong[not(contains(@class,'old-price'))]"
         text = element_text_content(get_element(By.XPATH, price))
         if self.counter == 0:
-            self.ticket.price = text
+            self.ticket.get_info.append(clear_price(text))
         else:
-            self.ticket.price_round = text
+            self.ticket.get_round_info.append(clear_price(text))
         self.counter = 1
         current_url = get_url()
         info("-----------------------------------")

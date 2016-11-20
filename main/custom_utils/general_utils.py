@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from urllib.parse import unquote
-
+import re
 import allure
 from nose.tools import assert_equal
 from nose.tools import assert_in
@@ -26,6 +26,10 @@ def lines_from_file(path):
     lines = file.readlines()
     file.close()
     return lines
+
+
+def clear_price(price):
+    return re.search("(\d+)", price).group()
 
 
 def get_url() -> str:

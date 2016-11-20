@@ -7,15 +7,8 @@ from main.custom_utils.general_utils import property_reader
 class Ticket:
     def __init__(self, property_name):
         prop = property_reader(property_name)
-        self.train_number = None
-        self.train_number_round = None
-        self.place_type = None
-        self.place_type_round = None
-        self.place_number = None
-        self.place_number_round = None
-        self.last_and_first_names = None
-        self.price = None
-        self.price_round = None
+        self.get_info = []
+        self.get_round_info = []
 
         self.range = prop.get("range")
         self.days_to = prop.get("departureDays")
@@ -33,10 +26,3 @@ class Ticket:
             days_to_add = random.randint(0, days_to_add)
         return date + datetime.timedelta(days_to_add)
 
-    def get_info(self) -> list:
-        return list([self.train_number, self.place_type, self.place_number,
-                     self.last_and_first_names, self.price, ])
-
-    def get_round_info(self) -> list:
-        return list([self.train_number_round, self.place_type_round,
-                     self.place_number_round, self.last_and_first_names, self.price_round])

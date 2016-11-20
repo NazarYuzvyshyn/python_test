@@ -1,11 +1,11 @@
+import re
 from enum import Enum
 
 from selenium.webdriver.common.by import By
-
-from main.business_object.ticket import Ticket
 from main.custom_utils.custom_logger import *
-from main.custom_utils.web_driver_factory import WebDriverFactory
-from main.custom_utils.web_elem_utils import element_text_content, click_on, get_elements
+from main.custom_utils.general_utils import clear_price
+from main.custom_utils.wait_utils import wait_for_url
+from main.custom_utils.web_elem_utils import click_on, get_elements, element_text_content, get_element
 
 
 class PurchasePage:
@@ -18,29 +18,34 @@ class PurchasePage:
         locator = "//*[text()='%s']/.." % method.name
         click_on(method.name, By.XPATH, locator)
 
-    def check_ticket_info(self, ticket: Ticket):
-        info = "//*[contains(@class,'one_offer-booking')]"
-        list =
-        tickets_list = get_elements(By.XPATH, info)
-        tickets_list = map(lambda i: i.text, tickets_list)
-        tickets_list = filter(lambda i: train in i, trains_list)
-        if trains_list:
-            info("%s <<contains>> %s" % (trains_list, train))
-            return True
-        else:
-            error("%s <<doesn't contains>> %s" % (trains_list, train))
-            return False
+    def check_ticket_info(self, ticket_info: list):
+        info_locator = "//*[contains(@class,'one_offer-booking')]"
+        tickets = get_elements(By.XPATH, info_locator)
+        tickets = map(lambda i: i.text, tickets)
+        return self.text_list_in_text(tickets, ticket_info)
 
-    def confirm_date_and_city(self, date, city):
-        date_city = "//*[contains(@class,'one_offer-booking')]//*[contains(@class,'departure-time')]"
-        date_city_list = get_elements(By.XPATH, date_city)
-        date_city_list = map(lambda i: i.text, date_city_list)
-        date_city_list = filter(lambda i: date in i and city in i, date_city_list)
-        if date_city_list:
-            info("%s <<contains>> %s and %s" % (date_city_list, date, city))
-            return True
-        else:
-            error("%s <<doesn't contains>> %s and %s" % (date_city_list, date, city))
-            return False
+    def get_price(self):
+        price_locator = "//*[@data-payment-data='tarif']"
+        price = element_text_content(get_element(By.XPATH, price_locator))
+        info("Price before paying: " + price)
+        return clear_price(price)
 
-    def confirm_passenger_and_
+    def submit(self):
+        submit = "//*[contains(@class,'booking_price_button')]//*[@type='submit']"
+        click_on("Продолжить", By.XPATH, submit)
+        wait_for_url("checkout", 30)
+
+    def text_list_in_text(self, main_text, text_list: list):
+        checker = 0
+        for itr in main_text:
+            checker = 0
+            for k in text_list:
+                if k not in itr:
+                    checker = 1
+                    break
+            if checker is 0:
+                info("%s <<contains>> %s" % (itr, text_list))
+                return True
+        if checker is 1:
+            error("%s <<doesn't contains>> %s" % (main_text, text_list))
+            return False

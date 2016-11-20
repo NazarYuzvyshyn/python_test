@@ -27,7 +27,7 @@ def web_driver(request, get_brows):
     WebDriverFactory.set_driver(get_brows)
     yield web_driver
     if request.node.rep_call.failed:
-       make_screenshot(name + ' << FAILED TEST SCREENSHOT >>')
+        make_screenshot(name + ' << FAILED TEST SCREENSHOT >>')
     WebDriverFactory.kill_driver()
     info("=============== " + name + " FINISHED ==================")
     return web_driver
