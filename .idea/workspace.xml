@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb23b42-d7a2-42af-a947-90cbeb4e8ceb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/pip-selfcheck.json" afterPath="$PROJECT_DIR$/env/pip-selfcheck.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/custom_services/custom_logger.py" afterPath="$PROJECT_DIR$/main/custom_services/custom_logger.py" />
     </list>
     <ignored path="newproj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="by_round_ticket_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="by_round_ticket_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/buy_ticket_suite/by_round_ticket_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -56,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom_logger.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom_logger.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/custom_services/custom_logger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -72,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="21" />
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -98,26 +98,6 @@
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="75eb2d4d-04ca-46a6-95e2-f9c2085b31cf-attachment.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/allure-reports/75eb2d4d-04ca-46a6-95e2-f9c2085b31cf-attachment.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="e2358044-b060-49b5-a191-3a0227037972-attachment.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/allure-reports/e2358044-b060-49b5-a191-3a0227037972-attachment.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1098">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -238,7 +218,6 @@
         <option value="$PROJECT_DIR$/main/custom_utils/general_servise.py" />
         <option value="$PROJECT_DIR$/main/custom_utils/web_elem_servise.py" />
         <option value="$PROJECT_DIR$/tests/buy_ticket_suite/by_round_ticket.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/main/custom_utils/constants.py" />
         <option value="$PROJECT_DIR$/main/custom_utils/general_utils.py" />
         <option value="$PROJECT_DIR$/main/business_object/passenger.py" />
@@ -250,7 +229,6 @@
         <option value="$PROJECT_DIR$/main/business_object/ticket.py" />
         <option value="$PROJECT_DIR$/main/custom_services/wait_services.py" />
         <option value="$PROJECT_DIR$/main/custom_services/web_elem_services.py" />
-        <option value="$PROJECT_DIR$/main/custom_services/custom_logger.py" />
         <option value="$PROJECT_DIR$/property_files/prop_reader.py" />
         <option value="$PROJECT_DIR$/main/custom_services/element_services.py" />
         <option value="$PROJECT_DIR$/main/pages/main_page.py" />
@@ -263,6 +241,8 @@
         <option value="$PROJECT_DIR$/main/pages/purchase_page.py" />
         <option value="$PROJECT_DIR$/allure-reports/e2358044-b060-49b5-a191-3a0227037972-attachment.txt" />
         <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/main/custom_services/custom_logger.py" />
       </list>
     </option>
   </component>
@@ -1004,24 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/custom_services/custom_logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/property_files/prop_reader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1138,6 +1100,24 @@
           <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/custom_services/custom_logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -10,16 +10,16 @@ def __log():
     return logger
 
 
-@pytest.allure.step('{0}')
+@pytest.allure.step('{message}')
 def info(message):
     __log().info(message)
 
 
-@pytest.allure.step('{0}')
+@pytest.allure.step('{message}')
 def warn(message):
     __log().warn(message)
 
 
-@pytest.allure.step('{0}')
+@pytest.allure.step('{message}')
 def error(message):
     __log().error(message)
