@@ -8,11 +8,11 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 from main.custom_services.custom_logger import error
 from main.custom_services.web_driver_factory import WebDriverFactory
-from main.custom_services.web_elem_services import get_element
+from main.custom_services.element_services import get_element
 
 
 def wait_page_load(timeout):
-    """ Wait until page is entire changed """
+    """ Wait until page is entire loaded """
     t = time.time() + timeout
     while time.time() < t:
         if WebDriverFactory.driver().execute_script("return document.readyState") == "complete":

@@ -11,7 +11,7 @@ from selenium.webdriver.common.keys import Keys
 
 from main.custom_services.wait_services import wait_page_load
 from main.custom_services.web_driver_factory import WebDriverFactory
-from main.custom_services.web_elem_services import get_element
+from main.custom_services.element_services import get_element
 from .custom_logger import *
 
 
@@ -30,7 +30,7 @@ def lines_from_file(path):
 
 
 def clear_price(price):
-    return re.search("(\d+)", price).group()
+    return re.search("[\d\s]+", price).group().strip().replace(" ", "")
 
 
 def get_url() -> str:

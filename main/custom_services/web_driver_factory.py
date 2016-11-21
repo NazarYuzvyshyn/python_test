@@ -1,10 +1,10 @@
+import os
 import platform
 import threading
 
 from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
 
-from main.custom_services.constants import DRIVER_PATH
 from ..custom_services.custom_logger import *
 
 
@@ -19,10 +19,12 @@ class WebDriverFactory:
     @staticmethod
     def chrome_settings(os_name):
         binary_path = ""
+        directory = os.path.dirname(__file__)
+        file = directory + '/drivers/chrome/'
         if os_name.__eq__("Windows"):
-            binary_path = DRIVER_PATH + 'chrome/chromedriver.exe'
+            binary_path = file + 'chromedriver.exe'
         if os_name.__eq__("Linux"):
-            binary_path = DRIVER_PATH + 'chrome/chromedriver'
+            binary_path = file + 'chromedriver'
         return binary_path
 
     @staticmethod
