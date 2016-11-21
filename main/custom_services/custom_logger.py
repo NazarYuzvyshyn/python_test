@@ -12,15 +12,15 @@ def __log():
 
 
 def info(message):
-    with pytest.allure.step('{0}'):
+    with pytest.allure.step('%s' % message):
         __log().info(message)
 
 
 def warn(message):
-    with pytest.allure.step('{0}'):
+    with pytest.allure.step('%s' % message):
         __log().warn(message)
 
 
 def error(message):
-    with pytest.allure.step('{0}'):
+    with pytest.allure.step('%s' % message):
         __log().error(message)
