@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb23b42-d7a2-42af-a947-90cbeb4e8ceb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-reports/1d4434cf-ba44-4bb8-95d2-8bd4188fb237-attachment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-reports/2263d5bb-ecf5-444a-bc32-c177481a073d-attachment.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-reports/61119dd6-6311-4fe1-be66-9b223299c392-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/allure-reports/a2797e81-35a2-4043-91b6-b5eb0b4a6109-attachment.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/custom_services/constants.py" afterPath="$PROJECT_DIR$/main/custom_services/constants.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/custom_services/general_services.py" afterPath="$PROJECT_DIR$/main/custom_services/general_services.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/custom_services/wait_services.py" afterPath="$PROJECT_DIR$/main/custom_services/wait_services.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/custom_services/web_driver_factory.py" afterPath="$PROJECT_DIR$/main/custom_services/web_driver_factory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/pages/main_page.py" afterPath="$PROJECT_DIR$/main/pages/main_page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/pages/purchase_page.py" afterPath="$PROJECT_DIR$/main/pages/purchase_page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/pages/results_page.py" afterPath="$PROJECT_DIR$/main/pages/results_page.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/pages/test_test.py" afterPath="$PROJECT_DIR$/main/pages/test_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/property_files/prop_reader.py" afterPath="$PROJECT_DIR$/property_files/prop_reader.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/buy_ticket_suite/by_round_ticket_test.py" afterPath="$PROJECT_DIR$/tests/buy_ticket_suite/by_round_ticket_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/drivers/chrome/chromedriver" afterPath="$PROJECT_DIR$/main/custom_services/drivers/chrome/chromedriver" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/drivers/chrome/chromedriver.exe" afterPath="$PROJECT_DIR$/main/custom_services/drivers/chrome/chromedriver.exe" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/drivers/firefox/geckodriver.exe" afterPath="$PROJECT_DIR$/main/custom_services/drivers/firefox/geckodriver.exe" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/main/custom_services/web_elem_services.py" afterPath="$PROJECT_DIR$/main/custom_services/element_services.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/pip-selfcheck.json" afterPath="$PROJECT_DIR$/env/pip-selfcheck.json" />
     </list>
     <ignored path="newproj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="by_round_ticket_test.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="by_round_ticket_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/buy_ticket_suite/by_round_ticket_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="238">
               <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
@@ -65,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ticket.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/business_object/ticket.py">
+      <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,7 +90,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="purchase_page.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="purchase_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/pages/purchase_page.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="246">
@@ -117,6 +98,26 @@
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="75eb2d4d-04ca-46a6-95e2-f9c2085b31cf-attachment.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/allure-reports/75eb2d4d-04ca-46a6-95e2-f9c2085b31cf-attachment.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="e2358044-b060-49b5-a191-3a0227037972-attachment.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/allure-reports/e2358044-b060-49b5-a191-3a0227037972-attachment.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1098">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -191,30 +192,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wait_services.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/custom_services/wait_services.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-629">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/pages/test_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="73" column="59" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="61" />
-              <folding>
-                <element signature="e#25#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -235,7 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/test_Pop/test1.py" />
         <option value="$PROJECT_DIR$/tests/registration_tests/invalid_emails_002_test.py" />
         <option value="$PROJECT_DIR$/tests/registration_tests/_003_uncheck_subscribe_test.py" />
         <option value="$PROJECT_DIR$/tests/registration_tests/conftest.py" />
@@ -249,7 +225,6 @@
         <option value="$PROJECT_DIR$/tests/registration_tests/_001_add_new_user_test.py" />
         <option value="$PROJECT_DIR$/main/pages/profile_page.py" />
         <option value="$PROJECT_DIR$/main/pages/regiter_page.py" />
-        <option value="$PROJECT_DIR$/README.txt" />
         <option value="$PROJECT_DIR$/geckodriver.log" />
         <option value="$PROJECT_DIR$/tests/registration_suite/_002_invalid_emails_test.py" />
         <option value="$PROJECT_DIR$/tests/registration_suite/_001_invalid_emails_test.py" />
@@ -286,6 +261,8 @@
         <option value="$PROJECT_DIR$/main/pages/test_test.py" />
         <option value="$PROJECT_DIR$/main/custom_services/general_services.py" />
         <option value="$PROJECT_DIR$/main/pages/purchase_page.py" />
+        <option value="$PROJECT_DIR$/allure-reports/e2358044-b060-49b5-a191-3a0227037972-attachment.txt" />
+        <option value="$PROJECT_DIR$/README.txt" />
       </list>
     </option>
   </component>
@@ -819,20 +796,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
-          <caret line="152" column="8" selection-start-line="152" selection-start-column="8" selection-end-line="152" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/properties-0.2.3-py3.5.egg-info/requires.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/site-packages/properties-0.2.3-py3.5.egg-info/installed-files.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -897,13 +860,6 @@
         <state relative-caret-position="189">
           <caret line="809" column="8" selection-start-line="809" selection-start-column="8" selection-end-line="809" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1104,16 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/buy_ticket_suite/by_round_ticket_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/pages/main_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1138,9 +1084,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
           <caret line="73" column="59" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="61" />
-          <folding>
-            <element signature="e#25#40#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1160,6 +1104,40 @@
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-reports/75eb2d4d-04ca-46a6-95e2-f9c2085b31cf-attachment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-reports/e2358044-b060-49b5-a191-3a0227037972-attachment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1098">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/buy_ticket_suite/by_round_ticket_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
           </folding>
         </state>
       </provider>

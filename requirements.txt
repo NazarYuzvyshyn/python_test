@@ -1,6 +1,6 @@
 numpy
 selenium
-pytest
+pytest==2.9.0
 PyFunctional
 nose
 lxml-3.6.4-cp35-cp35m-win32.whl
