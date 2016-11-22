@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.expected_conditions import *
 from selenium.webdriver.support.wait import WebDriverWait
 
-from tests.custom_logger import *
+from main.custom_services.custom_logger import *
 from .web_driver_factory import WebDriverFactory
 
 

@@ -1,2 +1,0 @@
-15:42:27.409 - INFO - =============== buy_ticket_suite.by_round_ticket STARTED ==================
-15:42:32.358 - INFO - Set Chrome driver

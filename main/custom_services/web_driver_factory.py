@@ -5,7 +5,7 @@ import threading
 from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
 
-from tests.custom_logger import *
+from main.custom_services.custom_logger import *
 
 
 class WebDriverFactory:

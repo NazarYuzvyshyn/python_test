@@ -1,12 +1,12 @@
 from main.business_object.passenger import Passenger
 from main.business_object.ticket import Ticket
 from main.custom_services.constants import BASE_URL, LIQPAY
+from main.custom_services.custom_logger import info
 from main.custom_services.general_services import go_to, get_url
 from main.pages.main_page import MainPage
 from main.pages.purchase_page import PayBy
 from main.pages.purchase_page import PurchasePage
 from main.pages.results_page import ResultsPage
-from tests.custom_logger import info
 
 
 def test_001(web_driver, end):

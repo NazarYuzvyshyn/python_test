@@ -3,10 +3,10 @@ from enum import Enum
 from selenium.webdriver.common.by import By
 
 from main.business_object.ticket import Ticket
+from main.custom_services.custom_logger import *
 from main.custom_services.element_services import click_on, get_elements, element_text_content, get_element
 from main.custom_services.general_services import clear_price
 from main.custom_services.wait_services import wait_for_url
-from tests.custom_logger import *
 
 
 class PayBy(Enum):
