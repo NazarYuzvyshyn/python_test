@@ -12,7 +12,7 @@ def __log():
 
 
 def info(message):
-    with pytest.allure.step("log {}".format(message)):
+    with pytest.allure.step(title=message):
         __log().info(message)
 
 
