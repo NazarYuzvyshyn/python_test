@@ -22,16 +22,16 @@ def pytest_runtest_makereport(item, __multicall__):
 @pytest.fixture(scope="function")
 def web_driver(request, get_brows):
     name = request.module.__name__[6:-5]
-    info_test("=============== " + name + " STARTED ==================")
+    info("=============== " + name + " STARTED ==================")
     WebDriverFactory.set_driver(get_brows)
 
 
 @pytest.yield_fixture(scope="function")
 def end(request):
     yield end
-    info_test("yield")
+    info("yield")
     name = request.module.__name__[6:-5]
     if request.node.rep_call.failed:
         make_screenshot(name + ' << FAILED TEST SCREENSHOT >>')
     WebDriverFactory.kill_driver()
-    info_test("=============== " + name + " FINISHED ==================")
+    info("=============== " + name + " FINISHED ==================")

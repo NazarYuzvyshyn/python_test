@@ -6,13 +6,13 @@ from main.pages.main_page import MainPage
 from main.pages.purchase_page import PayBy
 from main.pages.purchase_page import PurchasePage
 from main.pages.results_page import ResultsPage
-from tests.custom_logger import info_test
+from tests.custom_logger import info
 
 
 def test_001(web_driver, end):
     ticket = Ticket("ticket")
     passenger = Passenger("passenger")
-    info_test("test")
+    info("test")
     go_to(BASE_URL)
 
     main_page = MainPage(ticket)

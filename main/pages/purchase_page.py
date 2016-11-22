@@ -36,8 +36,8 @@ class PurchasePage:
         price_locator = "//*[@data-payment-data='tarif']"
         price = element_text_content(get_element(By.XPATH, price_locator))
         price = int(clear_price(price))
-        info_test("Price before paying is: %s and single tickets price are: %s + %s"
-                  % (price, self.ticket.price, self.ticket.round_price))
+        info("Price before paying is: %s and single tickets price are: %s + %s"
+             % (price, self.ticket.price, self.ticket.round_price))
         return price
 
     def submit(self):
@@ -57,7 +57,7 @@ class PurchasePage:
                     checker = 1
                     break
             if checker is 0:
-                info_test("###### %s ###### << contains >> %s" % (i, text_have_to_be_in))
+                info("###### %s ###### << contains >> %s" % (i, text_have_to_be_in))
                 return True
         if checker is 1:
             for q in text_for_checking:

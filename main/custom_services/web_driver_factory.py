@@ -32,11 +32,11 @@ class WebDriverFactory:
         if WebDriverFactory.thLoc.__driver is None:
             if browser.__eq__("ff"):
                 WebDriverFactory.thLoc.__driver = webdriver.Firefox()
-                info_test("Set Firefox driver")
+                info("Set Firefox driver")
             if browser.__eq__("chrome"):
                 path = WebDriverFactory.chrome_settings(platform.system())
                 WebDriverFactory.thLoc.__driver = webdriver.Chrome(executable_path=path)
-                info_test("Set Chrome driver")
+                info("Set Chrome driver")
                 WebDriverFactory.thLoc.__driver.maximize_window()
         else:
             error("WebDriver is initialized! : " + str(WebDriverFactory.thLoc.__driver))
@@ -47,4 +47,4 @@ class WebDriverFactory:
         if WebDriverFactory.thLoc.__driver is not None:
             WebDriverFactory.thLoc.__driver.quit()
             WebDriverFactory.thLoc.__driver = None
-            info_test("Driver has been killed")
+            info("Driver has been killed")

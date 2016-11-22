@@ -19,7 +19,7 @@ def go_to(url):
     """ Use module constants.py to make full url """
     WebDriverFactory.driver().get(url)
     wait_page_load(30)
-    info_test("Go to " + url)
+    info("Go to " + url)
 
 
 def lines_from_file(path):
@@ -39,18 +39,18 @@ def get_url() -> str:
 
 
 def is_equal(arg1, arg2):
-    info_test("ASSERT: " + str(arg1) + " VS " + str(arg2))
+    info("ASSERT: " + str(arg1) + " VS " + str(arg2))
     assert_equal(arg1, arg2)
 
 
 def is_in(arg1, arg2):
-    info_test("ASSERT: " + str(arg1) + " IS IN " + str(arg2))
+    info("ASSERT: " + str(arg1) + " IS IN " + str(arg2))
     assert_in(arg1, arg2)
 
 
 def make_screenshot(test_name):
     allure.attach(test_name, WebDriverFactory.driver().get_screenshot_as_png(), allure.attach_type.PNG)
-    info_test(test_name + " << FAILED SCREENSHOT >>")
+    info(test_name + " << FAILED SCREENSHOT >>")
 
 
 def press_key(key: Keys, by_what: By, locator):

@@ -9,10 +9,10 @@ class MainPage:
         self.day = None
 
     def get_ticket(self):
-        info_test("--------- Departure point ---------")
+        info("--------- Departure point ---------")
         trip_from = "from_name_as"
         input_keys_with_enter("Откуда", By.ID, trip_from, self.ticket.forward_city)
-        info_test("----------- Arrival point -----------")
+        info("----------- Arrival point -----------")
         trip_to = "to_name"
         input_keys_with_enter("Куда", By.ID, trip_to, self.ticket.backward_city)
         date_field = "departure_date"
