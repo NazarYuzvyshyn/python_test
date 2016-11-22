@@ -11,16 +11,16 @@ def __log():
     return logger
 
 
+@pytest.allure.step('{0}')
 def info(message):
-    with pytest.allure.step('{0}'):
-        __log().info(message)
+    __log().info(message)
 
 
+@pytest.allure.step('{0}')
 def warn(message):
-    with pytest.allure.step('{0}'):
-        __log().warn(message)
+    __log().warn(message)
 
 
+@pytest.allure.step('{0}')
 def error(message):
-    with pytest.allure.step('{0}'):
-        __log().error(message)
+    __log().error(message)
