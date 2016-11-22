@@ -22,8 +22,8 @@ class ResultsPage:
         trains = get_elements(By.XPATH, trains_locator)
         self.index = random.randint(0, trains.__len__() - 1)
         train_number = element_text_content(trains[self.index])
-        info("--------------- Train -------------")
-        info("Поезд: " + train_number)
+        info_test("--------------- Train -------------")
+        info_test("Поезд: " + train_number)
         if self.counter == 0:
             self.ticket.get_info.append(train_number[:4])
         else:
@@ -88,7 +88,7 @@ class ResultsPage:
         # Mark that one ticket is bought for writing info to round ticket
         self.counter = 1
         current_url = get_url()
-        info("-----------------------------------")
+        info_test("-----------------------------------")
         submit = "//*[contains(@class,'buy-block')]//*[@type='submit']"
         click_on("Продолжить", By.XPATH, submit)
         wait_change_url(current_url, 30)

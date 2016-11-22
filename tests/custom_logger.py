@@ -12,7 +12,7 @@ def __log():
 
 
 @pytest.allure.step('{0}')
-def info(message):
+def info_test(message):
     __log().info(message)
 
 
