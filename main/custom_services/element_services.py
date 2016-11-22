@@ -1,11 +1,13 @@
 import time
+
 from numpy import unicode
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.expected_conditions import *
 from selenium.webdriver.support.wait import WebDriverWait
-from .custom_logger import *
+
+from tests.custom_logger import *
 from .web_driver_factory import WebDriverFactory
 
 

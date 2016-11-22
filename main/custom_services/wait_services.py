@@ -6,9 +6,9 @@ from selenium.webdriver.support.expected_conditions import visibility_of_element
     presence_of_all_elements_located
 from selenium.webdriver.support.wait import WebDriverWait
 
-from main.custom_services.custom_logger import error
-from main.custom_services.web_driver_factory import WebDriverFactory
 from main.custom_services.element_services import get_element
+from main.custom_services.web_driver_factory import WebDriverFactory
+from tests.custom_logger import error
 
 
 def wait_page_load(timeout):

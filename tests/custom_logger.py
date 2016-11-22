@@ -1,6 +1,6 @@
 import logging
 
-import allure
+import pytest
 
 
 def __log():
@@ -11,16 +11,16 @@ def __log():
     return logger
 
 
-@allure.step('massage={0}')
 def info(message):
-    __log().info(message)
+    with pytest.allure.step('{0}'):
+        __log().info(message)
 
 
-@allure.step('massage={0}')
 def warn(message):
-    __log().warn(message)
+    with pytest.allure.step('{0}'):
+        __log().warn(message)
 
 
-@allure.step('massage={0}')
 def error(message):
-    __log().error(message)
+    with pytest.allure.step('{0}'):
+        __log().error(message)

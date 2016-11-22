@@ -1,7 +1,6 @@
-import pytest
-from main.custom_services.custom_logger import *
 from main.custom_services.general_services import make_screenshot
 from main.custom_services.web_driver_factory import WebDriverFactory
+from tests.custom_logger import *
 
 
 def pytest_addoption(parser):

@@ -9,10 +9,10 @@ from nose.tools import assert_in
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
+from main.custom_services.element_services import get_element
 from main.custom_services.wait_services import wait_page_load
 from main.custom_services.web_driver_factory import WebDriverFactory
-from main.custom_services.element_services import get_element
-from .custom_logger import *
+from tests.custom_logger import *
 
 
 def go_to(url):
