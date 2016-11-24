@@ -3,7 +3,7 @@ import logging
 import pytest
 
 
-def __log():
+def _log():
     f_o_r_m_a_t = "%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s"
     logging.basicConfig(format=f_o_r_m_a_t, datefmt='%H:%M:%S')
     logger = logging.getLogger()
@@ -13,14 +13,14 @@ def __log():
 
 def info(message):
     with pytest.allure.step("%s" % message):
-        __log().info(message)
+        _log().info(message)
 
 
 def warn(message):
     with pytest.allure.step("%s" % message):
-        __log().warn(message)
+        _log().warn(message)
 
 
 def error(message):
     with pytest.allure.step("%s" % message):
-        __log().error(message)
+        _log().error(message)

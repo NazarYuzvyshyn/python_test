@@ -20,15 +20,15 @@ def pytest_runtest_makereport(item, __multicall__):
 
 
 @pytest.fixture(scope="function")
-def web_driver(request, get_brows):
+def set_up(request, get_brows):
     name = request.module.__name__[6:-5]
     info("=============== " + name + " STARTED ==================")
     WebDriverFactory.set_driver(get_brows)
 
 
 @pytest.yield_fixture(scope="function")
-def end(request):
-    yield end
+def tear_down(request):
+    yield tear_down
     info("yield")
     name = request.module.__name__[6:-5]
     if request.node.rep_call.failed:

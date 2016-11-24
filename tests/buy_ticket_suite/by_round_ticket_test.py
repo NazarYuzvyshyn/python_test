@@ -9,7 +9,7 @@ from main.pages.purchase_page import PurchasePage
 from main.pages.results_page import ResultsPage
 
 
-def test_001(web_driver, end):
+def test_001(set_up, tear_down):
     ticket = Ticket("ticket")
     passenger = Passenger("passenger")
     info("test")
