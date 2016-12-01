@@ -1,11 +1,9 @@
 import time
-
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.expected_conditions import visibility_of_element_located, \
     presence_of_all_elements_located
 from selenium.webdriver.support.wait import WebDriverWait
-
 from main.custom_services.custom_logger import error
 from main.custom_services.element_services import get_element
 from main.custom_services.web_driver_factory import WebDriverFactory

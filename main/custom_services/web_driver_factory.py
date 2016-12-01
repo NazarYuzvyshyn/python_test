@@ -1,10 +1,8 @@
 import os
 import platform
 import threading
-
 from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
-
 from main.custom_services.custom_logger import *
 
 
