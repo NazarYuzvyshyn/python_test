@@ -1,7 +1,7 @@
 import random
 
-from main.business_object.passenger import Passenger
-from main.business_object.ticket import Ticket
+from main.business_objects.passenger import Passenger
+from main.business_objects.ticket import Ticket
 from main.custom_services.general_services import get_url, clear_price
 from ..custom_services.wait_services import *
 from ..custom_services.element_services import *

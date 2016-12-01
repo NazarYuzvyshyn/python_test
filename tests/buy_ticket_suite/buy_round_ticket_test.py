@@ -1,5 +1,5 @@
-from main.business_object.passenger import Passenger
-from main.business_object.ticket import Ticket
+from main.business_objects.passenger import Passenger
+from main.business_objects.ticket import Ticket
 from main.custom_services.constants import BASE_URL, LIQPAY
 from main.custom_services.custom_logger import info
 from main.custom_services.general_services import go_to, get_url

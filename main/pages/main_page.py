@@ -1,4 +1,4 @@
-from main.business_object.ticket import Ticket
+from main.business_objects.ticket import Ticket
 from main.custom_services.wait_services import wait_for_url, wait_element_visible
 from ..custom_services.element_services import *
 

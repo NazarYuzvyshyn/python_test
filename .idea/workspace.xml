@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beb23b42-d7a2-42af-a947-90cbeb4e8ceb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/custom_services/element_services.py" afterPath="$PROJECT_DIR$/main/custom_services/element_services.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/custom_services/wait_services.py" afterPath="$PROJECT_DIR$/main/custom_services/wait_services.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/custom_services/web_driver_factory.py" afterPath="$PROJECT_DIR$/main/custom_services/web_driver_factory.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/pages/main_page.py" afterPath="$PROJECT_DIR$/main/pages/main_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/pages/purchase_page.py" afterPath="$PROJECT_DIR$/main/pages/purchase_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/pages/results_page.py" afterPath="$PROJECT_DIR$/main/pages/results_page.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/buy_ticket_suite/buy_round_ticket_test.py" afterPath="$PROJECT_DIR$/tests/buy_ticket_suite/buy_round_ticket_test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/main/business_object/__init__.py" afterPath="$PROJECT_DIR$/main/business_objects/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/main/business_object/passenger.py" afterPath="$PROJECT_DIR$/main/business_objects/passenger.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/main/business_object/ticket.py" afterPath="$PROJECT_DIR$/main/business_objects/ticket.py" />
     </list>
     <ignored path="newproj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="buy_round_ticket_test.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="buy_round_ticket_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/buy_ticket_suite/buy_round_ticket_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,9 +97,11 @@
       <file leaf-file-name="purchase_page.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/pages/purchase_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="221">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,7 +112,7 @@
             <state relative-caret-position="-51">
               <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding>
-                <element signature="e#0#46#0" expanded="true" />
+                <element signature="e#0#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,7 +150,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web_driver_factory.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web_driver_factory.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/custom_services/web_driver_factory.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -220,7 +225,6 @@
         <option value="$PROJECT_DIR$/property_files/prop_reader.py" />
         <option value="$PROJECT_DIR$/main/custom_services/constants.py" />
         <option value="$PROJECT_DIR$/main/pages/test_test.py" />
-        <option value="$PROJECT_DIR$/main/pages/purchase_page.py" />
         <option value="$PROJECT_DIR$/allure-reports/e2358044-b060-49b5-a191-3a0227037972-attachment.txt" />
         <option value="$PROJECT_DIR$/README.txt" />
         <option value="$PROJECT_DIR$/requirements.txt" />
@@ -238,6 +242,7 @@
         <option value="$PROJECT_DIR$/main/custom_services/element_services.py" />
         <option value="$PROJECT_DIR$/main/custom_services/wait_services.py" />
         <option value="$PROJECT_DIR$/main/custom_services/web_driver_factory.py" />
+        <option value="$PROJECT_DIR$/main/pages/purchase_page.py" />
       </list>
     </option>
   </component>
@@ -427,7 +432,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="business_object" />
+              <option name="myItemId" value="business_objects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -786,7 +791,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/business_object/passenger.py">
+    <entry file="file://$PROJECT_DIR$/main/business_objects/passenger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
@@ -861,7 +866,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/allure-reports/142c1d87-a6f8-43e5-b691-1dfee2825969-attachment.png" />
-    <entry file="file://$PROJECT_DIR$/main/business_object/ticket.py">
+    <entry file="file://$PROJECT_DIR$/main/business_objects/ticket.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
@@ -885,14 +890,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/pages/test_test.py" />
-    <entry file="file://$PROJECT_DIR$/main/pages/purchase_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -977,14 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/buy_ticket_suite/buy_round_ticket_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/pages/results_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1000,7 +989,7 @@
         <state relative-caret-position="-51">
           <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1048,6 +1037,24 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/pages/purchase_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/buy_ticket_suite/buy_round_ticket_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
