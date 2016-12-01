@@ -12,7 +12,7 @@ from main.pages.results_page import ResultsPage
 def test_001():
     ticket = Ticket("ticket")
     passenger = Passenger("passenger")
-    info("test")
+
     go_to(BASE_URL)
 
     main_page = MainPage(ticket)
