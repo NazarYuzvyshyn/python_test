@@ -1,6 +1,4 @@
-
 departureFrom=Львов
-
 arrivalTo=Киев
 round=true
 departureDays=14

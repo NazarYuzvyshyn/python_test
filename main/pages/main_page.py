@@ -8,7 +8,7 @@ class MainPage:
         self.ticket = ticket
         self.day = None
 
-    def get_ticket(self):
+    def set_route_and_date(self):
         info("--------- Departure point ---------")
         trip_from = "from_name_as"
         input_keys_with_enter("Откуда", By.ID, trip_from, self.ticket.forward_city)
@@ -19,7 +19,7 @@ class MainPage:
         self.__set_date(self.ticket.forward_date, date_field)
         self.ticket.get_info.append(self.day)
 
-    def get_round_trip(self):
+    def set_round_trip(self):
         round_trip = "//*[contains(@class,'iradio_minimal') and child::*[@id='round_trip']]"
         click_on("'В обе стороны'", By.XPATH, round_trip)
         date_field = "departure_date_back"

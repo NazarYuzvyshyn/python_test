@@ -19,19 +19,19 @@ def pytest_runtest_makereport(item, __multicall__):
     return rep
 
 
-@pytest.fixture(scope="function")
+@pytest.fixture(scope="function", autouse=True)
 def set_up(request, get_brows):
     name = request.module.__name__[6:-5]
     info("=============== " + name + " STARTED ==================")
     WebDriverFactory.set_driver(get_brows)
 
 
-@pytest.yield_fixture(scope="function")
+@pytest.yield_fixture(scope="function", autouse=True)
 def tear_down(request):
     yield tear_down
     info("yield")
     name = request.module.__name__[6:-5]
     if request.node.rep_call.failed:
-        make_screenshot(name + ' << FAILED TEST SCREENSHOT >>')
+        make_screenshot(name)
     WebDriverFactory.kill_driver()
     info("=============== " + name + " FINISHED ==================")

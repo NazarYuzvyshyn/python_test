@@ -48,7 +48,7 @@ class ResultsPage:
     def get_random_place(self):
         """ Gets available free place in chosen train and place category."""
         free_places = "//*[contains(@class,'sits_block')]//a"
-        wait_list_elements("Free places", By.XPATH, free_places, 5)
+        wait_list_elements("'Free places'", By.XPATH, free_places, 15)
         places = get_elements(By.XPATH, free_places)
         place_index = random.randint(0, places.__len__() - 1)
         text = element_text_content(places[place_index])

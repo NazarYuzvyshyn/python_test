@@ -9,15 +9,15 @@ from main.pages.purchase_page import PurchasePage
 from main.pages.results_page import ResultsPage
 
 
-def test_001(set_up, tear_down):
+def test_001():
     ticket = Ticket("ticket")
     passenger = Passenger("passenger")
     info("test")
     go_to(BASE_URL)
 
     main_page = MainPage(ticket)
-    main_page.get_ticket()
-    main_page.get_round_trip()
+    main_page.set_route_and_date()
+    main_page.set_round_trip()
     main_page.search()
 
     result_page = ResultsPage(ticket, passenger)

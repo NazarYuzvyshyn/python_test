@@ -50,7 +50,7 @@ def is_in(arg1, arg2):
 
 def make_screenshot(test_name):
     allure.attach(test_name, WebDriverFactory.driver().get_screenshot_as_png(), allure.attach_type.PNG)
-    info(test_name + " << FAILED SCREENSHOT >>")
+    info(test_name + " << FAILED TEST SCREENSHOT >>")
 
 
 def press_key(key: Keys, by_what: By, locator):
